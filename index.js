@@ -40,3 +40,19 @@ const questions = [
         answer: "A"
     }
 ];
+
+
+function askQuestion(index) {
+    const currentQuestion = questions[index];
+
+    console.log("\n" + currentQuestion.question);
+
+    currentQuestion.options.forEach(function(option) {
+        console.log(option);
+    });
+
+    rl.question("Your answer (A, B, C, or D): ", function(userAnswer) {
+        console.log("You selected: " + userAnswer);
+        rl.close();
+    });
+}
