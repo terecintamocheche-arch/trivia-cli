@@ -17,3 +17,26 @@ function startGame() {
 }
 
 startGame();
+
+const questions = [
+    {
+        question: "What is the capital city of Kenya?",
+        options: ["A. Mombasa", "B. Nairobi", "C. Kisumu", "D. Nakuru"],
+        answer: "B"
+    },
+    {
+        question: "Which language runs in a web browser?",
+        options: ["A. Python", "B. C++", "C. JavaScript", "D. Java"],
+        answer: "C"
+    },
+    {
+        question: "What does HTML stand for?",
+        options: [
+            "A. Hyper Text Markup Language",
+            "B. High Tech Modern Language",
+            "C. Home Tool Markup Language",
+            "D. Hyper Transfer Machine Language"
+        ],
+        answer: "A"
+    }
+];
